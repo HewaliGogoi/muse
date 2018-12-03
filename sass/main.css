@@ -1,0 +1,147 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  line-height: 1;
+}
+
+body header {
+  background-color: white;
+  padding: 0px;
+  border-bottom: black 1px solid;
+  margin: 0;
+}
+
+body header .container {
+  padding: 0px;
+  margin: 0px;
+  line-height: 0;
+}
+
+body header .container nav {
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+}
+
+body header .container nav ul {
+  padding-right: 15px;
+  margin-top: 40px;
+  float: right;
+}
+
+body header .container nav ul li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+body header .container nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #293850;
+}
+
+body header .container nav h1 {
+  font-size: 50px;
+  color: #656f7f;
+  font-weight: bold;
+}
+
+body header .container nav h1 .Highlight {
+  font-size: 10px;
+}
+
+body #showcase {
+  background-color: #EADECE;
+  padding: 0;
+  margin: 25px;
+}
+
+body #showcase .container {
+  margin: 0px;
+  padding: 170px;
+  background: url("../images/meditate1.png") no-repeat;
+  text-align: right;
+}
+
+body #showcase .container .boxes {
+  text-align: left;
+  margin-left: 430px;
+  line-height: 25px;
+}
+
+body #showcase .container .boxes h1 {
+  margin-top: 3px;
+  font-size: 50px;
+  color: #677284;
+  font-weight: bold;
+  text-align: center;
+  line-height: 0px;
+}
+
+body #showcase .container .boxes p {
+  font-size: 16px;
+  color: #293850;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+body #showcase .container .boxes .button_1 {
+  background-color: #50555e;
+  padding: 12px;
+  padding-left: 50px;
+  margin-left: 200px;
+  -webkit-padding-end: 30px;
+          padding-inline-end: 30px;
+  color: white;
+  border: 0;
+  font-size: 16px;
+  float: center;
+}
+
+body #information {
+  background-color: yellow;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 100px;
+}
+
+body #information .container {
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+body #information .container h1 {
+  text-align: center;
+  color: #656f7f;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+body #information .container li {
+  text-align: center;
+}
+
+body #information .container li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #293850;
+  letter-spacing: 0.2px;
+}
+
+body #information .boxes {
+  background-color: blue;
+  padding-left: 10px;
+  margin-left: 30px;
+}
+
+body #information .boxes .box {
+  background-color: yellow;
+}
+/*# sourceMappingURL=main.css.map */

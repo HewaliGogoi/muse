@@ -1,0 +1,154 @@
+$colors:(
+    c1:white,
+    c2:black,
+);
+
+body,html{
+    height:100%;
+    width: 100%;
+}
+
+body{
+    margin:0;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    line-height: 1;
+
+    header{
+        background-color:map-get($colors,c1);
+        padding:0px;
+        border-bottom:map-get($colors,c2) 1px solid;
+        margin:0;
+
+        .container{       
+            padding:0px;
+            margin:0px;
+            line-height: 0;
+                       
+            nav{
+                padding:10px;
+                margin:0px;
+                width:100%;              
+
+                ul{
+                    padding-right:15px;
+                    margin-top:40px;
+                    float: right;
+                    
+                    li{                       
+                        display:inline;
+                        padding:0px 10px 0px 10px;
+
+                        a{
+                            text-decoration: none;
+                            font-size: 16px;                           
+                            color: #293850;
+                        }
+                    }
+                }
+
+                h1{                                     
+                    font-size:50px;                   
+                    color: #656f7f;
+                    font-weight: bold;
+                    
+                    .Highlight{
+                        font-size: 10px;                      
+                    }
+                }
+            }
+        }
+    }
+
+    #showcase{
+        background-color: #EADECE;
+        padding: 0;
+        margin:25px;
+
+        .container{
+            margin:0px;
+            padding: 170px;
+            background: url("../images/meditate1.png") no-repeat;           
+            text-align: right;
+           
+
+            .boxes{
+                text-align: left;
+                margin-left:430px;
+                line-height: 25px;
+                
+
+                h1{
+                    margin-top: 3px;
+                    font-size:50px;                  
+                    color: #677284;
+                    font-weight: bold; 
+                    text-align: center;
+                    line-height:0px;
+                }
+
+                p{
+                    font-size: 16px;                           
+                    color: #293850;
+                    text-align: center;
+                    letter-spacing: 1.5px; 
+                }
+
+                .button_1{
+                    background-color: #50555e;
+                    padding: 12px;
+                    padding-left: 50px;
+                    margin-left: 200px;
+                    padding-inline-end: 30px;
+                    color: white;
+                    border:0;
+                    font-size: 16px;
+                    float: center;
+
+                }
+            }
+            
+        }
+    }
+
+    #information{
+        background-color: yellow;
+        padding: 10px;
+        margin:20px;
+        margin-left:100px;
+
+        .container{
+            background-color: white;
+            padding-bottom: 20px;
+
+            h1{
+                text-align: center;
+                color:#656f7f;
+                font-family: Poppins, Helvetica, Arial, sans-serif;
+                font-style: normal;
+                letter-spacing: 0.5px;
+            }
+
+            li{
+                text-align: center;
+                
+                a{
+                    text-decoration: none;
+                    font-size: 17px;                           
+                    color: #293850;
+                    letter-spacing: 0.2px;
+                }
+            }
+        }
+
+        .boxes{
+            background-color: blue;            
+            padding-left:10px;
+            margin-left:30px;
+
+            .box{
+                background-color: yellow;
+            }
+        }
+    }
+}
